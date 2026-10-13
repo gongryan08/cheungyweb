@@ -4,7 +4,7 @@ Welcome to **CheungyWeb**, the official website designed especially for the **Ch
 **Quick reminder: if you are not in the SISHK Cheungy Choir, you won't understand what's going on.**
 ## 🚀 Live Site
 The website is automatically built and hosted globally with GitHub Pages:
-👉 [Link](https://gongryan08.github.io/cheungyweb)
+👉 [Link](https://gongryan08.github.io/cheungyweb) 
 
 ---
 
