@@ -1,7 +1,7 @@
 # CheungyWeb 🎶
 
 Welcome to **CheungyWeb**, the official website designed especially for the **Cheungy Choir**. This responsive platform provides information about the choir and features an interactive registration form for new members to join.
-**Quick reminder: if you are not in the SISHK Cheungy Choir, you won't understand what's going on.
+**Quick reminder: if you are not in the SISHK Cheungy Choir, you won't understand what's going on.**
 ## 🚀 Live Site
 The website is automatically built and hosted globally with GitHub Pages:
 👉 [Link](https://gongryan08.github.io/cheungyweb)
