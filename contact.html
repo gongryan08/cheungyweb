@@ -1,7 +1,7 @@
 <!DOCTYPE xhtml>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
-        {% include navigation.html %}
+        <!-- {% include navigation.html %} -->
         <link rel="preconnect" href="https://googleapis.com">
         <link rel="preconnect" href="https://gstatic.com" crossorigin>
         <link href="https://googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -22,9 +22,14 @@
             <p>Note: Please allow some time for a response, as the editor may be busy with other tasks.</p>
         </main>
         <script src="components/navbar.js"></script>
-        <footer>
-            <p>&copy; 2026 CheungyWeb by Ryan Gong. All rights reserved.</p>
-        </footer>
-        </div>
+        <div id="global-footer"></div>
+        <style>
+            #nav-contact {
+                background-color: #f0f4ff !important;
+                color: #2b56f5 !important;
+                font-weight: bold !important;
+            }
+        </style>
+
     </body>
 </html>

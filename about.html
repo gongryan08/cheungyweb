@@ -1,7 +1,7 @@
 <!DOCTYPE xhtml>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
-        {% include navigation.html %}
+        <!-- {% include navigation.html %} -->
         <link rel="preconnect" href="https://googleapis.com">
         <link rel="preconnect" href="https://gstatic.com" crossorigin>
         <link href="https://googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -18,11 +18,17 @@
             <h1>About the team</h1>
             <p>Welcome to the team page!</p>
             <p>We are a dedicated group of individuals passionate about music and roasting Mr Cheung Anderson.</p>
+            <p>I will add a picture here later...</p>
         </main>
         <script src="components/navbar.js"></script>
-        <footer>
-            <p>&copy; 2026 CheungyWeb by Ryan Gong. All rights reserved.</p>
-        </footer>
-        </div>
+        <div id="global-footer"></div>
+        <style>
+            #nav-about {
+                background-color: #f0f4ff !important;
+                color: #2b56f5 !important;
+                font-weight: bold !important;
+            }
+        </style>
+
     </body>
 </html>

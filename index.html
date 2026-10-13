@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8" />
-  {% include navigation.html %}
+  <!-- {% include navigation.html %} -->
   <title>CheungyWeb</title>
   
   <!-- Google Fonts Connection -->
@@ -34,25 +34,20 @@
     </main>
 
     <!-- 3. The footer container -->
-    <footer class="site-footer">
-      <p>© 2026 CheungyWeb by Ryan Gong. All rights reserved.</p>
-    </footer>
+    <div id="global-footer">
 
-  </div>
-  <!-- Add this unique identifier right inside index.html -->
+    </div>
+    <!-- Inside index.html -->
     <style>
-      .home-link {
+      #nav-home {
         background-color: #f0f4ff !important;
         color: #2b56f5 !important;
         font-weight: bold !important;
       }
     </style>
 
+
     <!-- This is your existing loader script -->
     <script src="components/navbar.js"></script>
-</body>
-
-  <!-- JavaScript file component loader -->
-  <script src="components/navbar.js"></script>
 </body>
 </html>
