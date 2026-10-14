@@ -8,6 +8,7 @@ const navbarHTML = `
       <li><a href="index.html" class="nav-item" id="nav-home">Home</a></li>
       <li><a href="about.html" class="nav-item" id="nav-about">About Us</a></li>
       <li><a href="aboutcheung.html" class="nav-item" id="nav-cheung">About Cheung Anderson</a></li>
+      <li><a href="poems.html" class="nav-item" id="nav-poems">Poems</a></li>
       <li><a href="contact.html" class="nav-item" id="nav-contact">Contact the editor</a></li>
     </ul>
   </nav>
