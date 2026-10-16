@@ -1,0 +1,129 @@
+/* ==========================================
+   1. GLOBAL TYPOGRAPHY (Unified Noto Serif)
+   ========================================== */
+body, h1, p, .nav-item {
+  font-family: 'Noto Serif', serif;
+}
+
+h1 {
+  color: #333;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.poem-page {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 12px;
+  font-weight: 700;
+  color: #2b56f5;
+}
+
+.intro {
+  max-width: 760px;
+  font-size: 1.05rem;
+  color: #4d4d4d;
+}
+
+.poem-card {
+  background: #fffdf9;
+  border: 1px solid #e8ebff;
+  border-radius: 18px;
+  padding: 28px 24px;
+  margin: 18px 0;
+  box-shadow: 0 10px 30px rgba(43, 86, 245, 0.06);
+}
+
+.poem-card h2 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: #243a5f;
+  font-size: 1.8rem;
+}
+
+.poem-lines {
+  white-space: pre-line;
+  line-height: 1.9;
+  font-size: 1.04rem;
+  color: #333;
+}
+
+/* ==========================================
+   2. NAVIGATION BAR STYLES
+   ========================================== */
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 12px; 
+  align-items: center;
+}
+
+/* Base style for all links (Now shares the same font family) */
+.nav-item {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #555555;      /* Elegant gray for unselected links */
+  border-radius: 12px; 
+  transition: all 0.2s ease;
+}
+
+/* Hover background reaction */
+.nav-item:hover {
+  background-color: #f4f7ff;
+  color: #2b56f5;
+}
+
+/* Active Highlight Card State */
+.nav-item.active {
+  background-color: #f0f4ff; /* Light blue background capsule */
+  color: #2b56f5;            /* Vibrant blue text */
+  font-weight: bold;         /* Shifts weight smoothly without changing font family */
+}
+/* 1. Force the document body to take up the full screen height */
+html, body {
+  font-family: 'Noto Serif', serif !important; /* Unified font family for all text */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* 2. Turn the container into a vertical flex column layout */
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Stands for 100% of the Viewport Height */
+}
+
+/* 3. The magic step: tells the main content area to grow and eat up 
+      all available space, automatically driving the footer to the bottom */
+.content-area {
+  flex: 1;
+  padding: 20px; /* Optional spacing around your core text content */
+}
+
+/* 4. Style your footer at the bottom */
+.site-footer {
+  background-color: #f8f9fa; /* Optional: adds a clean light gray background bar */
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777777;
+  border-top: 1px solid #eeeeee; /* Optional: adds a subtle dividing hairline rule */
+}
